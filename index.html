@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;7000&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+  <title>Form Practice</title>
+</head>
+<body>
+  <div class="login">
+    <img src="./background.jpg" alt="image">
+    <form action="" class="login__form">
+      <h1 class="login__title">Login</h1>
+
+      <div class="login__inputs">
+        <div class="login__box">
+          <input type="email" name="email" id="email" class="login__input" required>
+          <label for="email" class="login__label">Email ID</label>
+          <i class="ri-mail-fill"></i>
+        </div>
+
+        <div class="login__box">
+          <input type="password" name="password" id="password" placeholder="" class="login__input" required>
+          <label for="password" class="login__label">Password</label>
+          <i class="ri-lock-password-fill"></i>
+        </div>
+      </div>
+
+      <div class="login__check">
+        <div class="login__check-box">
+          <input for="checkbox" name="checkbox" id="user-check" class="login__check-input">
+          <label for="user-check" class="login__check-label">Remember Me</label>
+        </div>
+        <a href="#" class="login__forget">Forgot Password?</a>
+      </div>
+
+      <button type="submit" class="login__button">Login</button>
+
+      <div class="login__register">
+        Don't have an account? <a href="#">Register</a>
+      </div>
+    </form>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
